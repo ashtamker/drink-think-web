@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    line-height: 1.6;
+    
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+   
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px ;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    background-color: brown;
+    padding: 10px 15px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.btn:hover {
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+.clr {
+    clear: both;
+}
+
+#navbar {
+    background-color: #333;
+    overflow: auto;
+    
+}
+
+#navbar a {
+    color: darkorange;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+    color: whitesmoke;
+
+}
+
+#navbar h1 img {
+    height: 40px;
+    width: 40px;
+
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#navbar ul li a:hover {  
+    text-transform: uppercase;
+    font-size: 24px;
+    color: ghostwhite;
+}
+
+/*  the main img */
+#showcase {
+    background-image: url('../img/mainPage.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+#showcase .showcase-content{
+    color:white;
+    text-align: center;
+    padding-top: 100px;
+}
+#showcase .showcase-content h1{
+    font-size: 50px;
+    line-height: 1.2em;
+    
+    
+}
+#lemons {
+    color: yellow;
+    display: inline;
+       
+}
+
+#showcase .showcase-content p {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+/* info */
+.bg-dark {
+    background-color: #333;
+}
+
+#info {
+    height: 400px;
+}
+
+#info .cocktail {
+    float: left;
+    width: 50%;
+    background-image: url('../img/daydrink.jpg');
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+}
+
+#info .discription {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+.discription h2 {
+    font-size: 35px;
+    text-shadow: 1px 1px darkorange;
+    text-decoration: underline;
+
+}
+
+.discription p {
+    font-size: 22px;
+    color: deepskyblue;
+
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    background-color: dodgerblue;
+    border: 10px double white;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#main-footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.container-main {
+    max-width: 960px;
+    margin: 30px auto;
+}
+
+.container-main .box {
+    background-color: papayawhip;
+} 
+  
+div #recipe-1 {
+    height: 600px;
+    width: 450px;
+    
+}
+
+div #recipe-2 {
+    height: 600px;
+    width: 450px;
+}
+div #recipe-3 {
+    height: 600px;
+    width: 450px;
+}
+div #recipe-4 {
+    height: 600px;
+    width: 450px;
+}
+div #recipe-5 {
+    height: 600px;
+    width: 450px;
+}
+div #recipe-6 {
+    height: 600px;
+    width: 450px;
+}
+
+.box h3 {
+    color: #333;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
