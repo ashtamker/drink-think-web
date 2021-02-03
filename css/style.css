@@ -167,8 +167,8 @@ p {
 }
 
 .discription p {
-    font-size: 22px;
-    color: deepskyblue;
+    font-size: 1.5rem;
+    color: var(--basic-color);
 
 }
 
@@ -199,7 +199,7 @@ p {
 }
 
 .container-main .box {
-    background-color: var(--bgr-color);
+    background-color: var(--basic-color);
 } 
   
 div #recipe-1 {
@@ -232,7 +232,10 @@ div #recipe-6 {
 .box h3 {
     color: black;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 1.5rem;
     text-shadow: 2px 2px 8px black  ;
 }
 
+.recipe-body {
+    background-color: #333;
+}
